@@ -1,0 +1,168 @@
+*{ /*Making sure that the predifined browser settings will not take action*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*width and height determined sizing*/
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*aligns items to the opposite axis*/
+    justify-content: space-between;
+    padding: 20px;
+    min-width: fit-content;
+}
+
+/*TODO: Apply background color and stretch it to fit-content if needed*/
+nav{
+    flex:1; /*all the items will grow and shring with the same size*/
+    text-align: center;
+}
+
+.cart-nav{
+    width: fit-content;
+    height: 15px;
+    padding-bottom: 55px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+    margin: auto; /*keep the conatiner cenetered*/
+    max-width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /*wrapping the content onto multiple lines*/
+    justify-content: space-around;
+}
+
+.col{
+    flex-basis: 50%; /*both cols will occupy 50 percent of the space*/
+    min-width: 300px;
+}
+
+/*TODO: Delete later if neccessary*/
+.col img{
+    max-width: 100%; 
+    padding: 50px 0;
+}
+
+.col h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px; /*8px top and bottom, 30px left and right shorthand*/
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background-color: #555;
+}
+
+/*TODO: Delete later if neccessary*/
+header{
+    background: radial-gradient(#e3dfdf, #d3d6f3);
+}
+
+header .row{
+    margin-top: 70px;
+}
+
+.cart-nav{
+    display: flex;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+
+.cart-nav img{
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.carousel-item.active img{
+    width: 8%;
+    height: 20%;
+    margin: 20px;
+}
+
+.carousel-item img{
+    width: 8%;
+    height: 20%;
+    margin: 20px;
+}
+
+.base-container-wrapper{
+    padding: 0 24px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.related-categories-wrapper{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.related-categores-item{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #141414;
+    transition: background-color .3s;
+}
+
+.related-categores-item:hover{
+    background-color: #b6b3b3;
+}
+
+.related-categores-item img{
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box; /*how far outside the bounds before the img can be clipped*/
+    height: 100%;
+}
