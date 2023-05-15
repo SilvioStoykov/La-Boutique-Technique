@@ -25,8 +25,10 @@ nav{
 
 .cart-nav{
     width: fit-content;
-    height: 15px;
+    height: 5px;
     padding-bottom: 55px;
+    background-color: #eae3e3;
+    width: 125%;
 }
 
 nav ul{
@@ -165,4 +167,11 @@ nav ul li a:hover{
     box-sizing: border-box;
     overflow-clip-margin: content-box; /*how far outside the bounds before the img can be clipped*/
     height: 100%;
+}
+
+.logo{
+    margin: 10px 10px;
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color: #2c2b2b;
 }
