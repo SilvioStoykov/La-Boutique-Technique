@@ -27,7 +27,7 @@ nav{
     width: fit-content;
     height: 5px;
     padding-bottom: 55px;
-    background-color: #eae3e3;
+    background-color: #e5e5e5;
     width: 125%;
 }
 
@@ -171,7 +171,11 @@ nav ul li a:hover{
 
 .logo{
     margin: 10px 10px;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: #2c2b2b;
+}
+
+.boutique{
+    color: #ff523b;
 }
