@@ -18,6 +18,9 @@ p{
     color: #555;
 }
 
+/*                      Hero Section
+This section contains the images in the main part of the home page.
+*/
 .hero-images{
     display: flex;
     height: 50%;
@@ -43,6 +46,7 @@ p{
 	transform: scale(1.004);
 }
 
+/* Taking care of the titles('Men' and 'Women') placed over the hero images */
  .image-hero-man .title{
     position: absolute;
     top: 60%;
@@ -56,6 +60,7 @@ p{
     z-index: 2;
 }
 
+/* Taking care of the titles('Men' and 'Women') placed over the hero images */
 .image-hero-woman .title{
     position: absolute;
     top: 60%;
@@ -73,8 +78,7 @@ p{
     color: #fff;
 }
 
-
-/*TODO: Delete later if neccessary*/
+/*Navbar section*/
 .header-wrapper{
     position: relative;
     z-index: 1;
@@ -89,30 +93,6 @@ p{
 nav{
     display: block;
 }
-
-/* .search-box{
-    margin: auto;
-    margin-left: 15px;
-}
-
-.search-box .search-input{
-    margin-bottom: 15px;
-    margin-top: 25px;
-    margin-left: 3px;
-}
-
-.search-box input{
-    top: 20%;
-    border: none;
-    width: 280px;
-    text-decoration: underline;
-    text-underline-offset: 15px solid black bold;
-}
-
-.search-box input::backdrop{
-    border: none;
-} */
-
 
 .navbar-menu{
     display: flex;
@@ -171,6 +151,9 @@ nav{
     vertical-align: middle;
 }
 
+/*User symbols, located on the left part of the navbar
+Google Materials Icons are used
+*/
 #login-btn .material-symbols-outlined{
     margin-left: 10px;
     position: relative;
@@ -202,11 +185,13 @@ nav{
     text-align: center;
 }
 
+/*New Arrivals section */
 .trend-text{
     font-size: 40px;
     font-family: "MOPGothic-Bold",Arial,sans-serif;
     margin: 15px 15px;
     margin-left: 42%;
+    margin-top: 30px;
 }
 
 .products-grid{
