@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Boutique Technique</title>
     <link href="style.css" rel="stylesheet">
-    <link href="product1.css" rel="stylesheet">
+    <link href="profile-style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
         </nav>
         
         <div class="logo">
-            <img class="logo_img" src="img/la_logo.jpg" alt="""></div>
+            <img class="logo_img" src="img/la_logo-transparent.png" alt="""></div>
         <a href="#">
             <div class="user-menu">
            
@@ -57,70 +57,28 @@
     </header>
 
     <main>
-
-    <div class="product-page">
-        <section class="image-container">
-            <img src="img/na_6.webp" alt="">
-        </section>
-        <section class="info-container">
-            <div class="pr-page">
-                <a href="#"><span onclick="history.back()" class="material-symbols-outlined">arrow_back_ios_new</span></a>
-                <p id="#prev-page-p">Previous page</p>
+        <div class="hero-grid">
+            <div class="portal-image">
+                <picture>
+                    <img id="side-pic" src="img/men-cover.webp" alt="">
+                </picture>
             </div>
-            <h1 class="product-title">Programche Jacket</h1>
-            <div class="flag">
-                <div class="flag-inner">
-                    <div class="flag-font">Slim fit</div>
+
+            <div class="creditentials">
+                <h1 id="title">Register or Sign In</h1>
+                <div class="text-fields">
+                    <label for="TextField-email" class="label">E-mail</label>
+                    <div class="field">
+                        <input type="email" placeholder="E.g. you@were.rickrolled">
+                    </div>
+                </div>
+
+                <div class="text-fields">
+                    <label for="TextField-email" class="label">E-mail</label>
+                    <div class="field">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
                 </div>
             </div>
-            <p class="price">310 USD</p>
-            <a href="#">   
-                <button class="cart-add" type="button">
-                Add to Shopping Cart
-               
-            </button>
-
-        </a>
-
-            <div class="details">
-                <h3 class="details-title">
-                    DETAILS
-                    <hr>
-                </h3>
-                
-                <p>
-                    A distinctive 
-                    jacket by BOSS Menswear, 
-                    cut to a relaxed fit in stretch cotton with a midweight feel.
-                    Relaxed fit
-                </p>
-            </div> 
-
-            <div class="materials">
-                <h3 class="materials-title">
-                    Materials
-                    <hr>
-                </h3>
-                <p>94% Cotton, 6% Elastane, Lining: 100% Viscose, Sleeve lining: 100% Viscose
-                    Do Not Wash
-                    Do Not Bleach
-                    Do Not Tumble Dry
-                    Iron Low Heat
-                    Gentle chemical dry cleaning P</p>
-            </div>
-
-            <div class="size">
-                <h3 class="size-title">
-                    Size and fit
-                    <hr>
-                </h3>
-                <p>The model is a size 50 and is 189 cm tall with a, 94 cm chest, 80 cm waist and 98 cm hips.</p>
-            </div>
-
-            </a>
-
-        </section>
-
-    </div>
-
+        </div>
     </main>

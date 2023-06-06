@@ -1,0 +1,58 @@
+.hero-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#side-pic{
+    position: fixed;
+    grid-column: 1/span 5;
+    grid-row: 1/span 2;
+    z-index: 11;
+    margin: 0;
+    max-width: calc(50% - 6.5rem);
+    height: 100vh;
+    object-fit: cover;
+}
+
+.creditentials{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.text-fields{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+label{
+    line-height: 1.33rem;
+    letter-spacing: normal;
+    font-family: VogueAvantGarde,helvetica,sans-serif;
+    grid-template-columns: auto;
+
+}
+
+#title{
+    margin-bottom: 20px;
+}
+
+.field{
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    color: #000;
+    display: grid;
+    width: 50%;
+    margin-top: 0.5rem
+}
+
+.field input{
+    line-height: 1.55em;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    padding: 0.875rem 0.75rem;
+    width: 100%;
+}
+
